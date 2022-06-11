@@ -1,0 +1,10 @@
+beautifulsoup4==4.11.1
+interval==1.0.0
+Js2Py==0.71
+pycryptodome==3.14.1
+pyDes==2.0.1
+PyYAML==6.0
+requests==2.25.1
+requests_toolbelt==0.9.1
+rsa==4.7.2
+tencentcloud_sdk_python==3.0.65

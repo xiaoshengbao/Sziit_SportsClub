@@ -1,0 +1,28 @@
+Version: 1.0
+notifyOption:
+#  必填不然报错
+    smtpOption:
+        #邮箱名称
+        userName: ''
+        #smtp密码
+        passWord: ''
+        #邮件服务器
+        server: 'smtp.163.com'
+
+    SCFOption:
+        #腾讯云API的ID和KEY
+        SecretId: '1'
+        SecretKey: '2'
+
+
+users:
+       - user:
+           # username 学号或者工号
+           username: ''
+           # password 密码
+           password: ''
+           # 通知邮箱
+           e_mail: ''
+           # 手动获取跳转链接
+           jlb_url : ''
+
