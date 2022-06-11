@@ -25,6 +25,13 @@ pip install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 ```
 pip3 install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 ```
+### 关于推送
+本脚本采用邮箱推送（说人话就是抢到了会发邮件通知你）
+由于作者编程水平有限，请填写好config.yml中的每一项内容，不然就会出奇奇怪怪的报错
+smtp密码的获取请参考下文
+```
+https://boke112.com/post/3253.html
+```
 
 ### 关于腾讯云函数
 请在腾讯云函数上直接上传本压缩包文件
@@ -49,6 +56,8 @@ https://console.cloud.tencent.com/api/explorer?Product=scf&Version=2018-04-16&Ac
 ```
 python3 indexone.py
 ```
+
+
 
 # 禁止售卖脚本赚钱，脚本仅供学习使用，所带来的的责任与本人无关！
 # 本脚本兼容多用户，建议使用多用户模式
