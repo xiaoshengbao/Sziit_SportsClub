@@ -2,6 +2,9 @@
 ## 2022.06.11 版本V1.0
 ## 使用说明（Linux）：
 请先确保您有python3.6及以上环境<br/>
-在云服务器上安装依赖 pip3 install -r requirements.txt
+在云服务器上安装依赖 
+```
+pip3 install -r requirements.txt
+```
 # 禁止售卖脚本赚钱，脚本仅供学习使用，责任与本人无关！
 # 本脚本兼容多用户，建议使用多用户模式
