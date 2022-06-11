@@ -36,8 +36,10 @@ https://boke112.com/post/3253.html
 ### 关于腾讯云函数
 请在腾讯云函数上直接上传本压缩包文件<br/>
 获取SecretId 和 SecretKey 并填写至config文件中
+
+请在
 ```
-请在 https://console.cloud.tencent.com/cam/capi 
+ https://console.cloud.tencent.com/cam/capi 
 ```
 
 请将腾讯云函数名填写至index.py文件167行"FunctionName"：后
