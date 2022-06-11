@@ -26,7 +26,7 @@ pip install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 pip3 install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 ```
 ### 关于推送
-本脚本采用邮箱推送（说人话就是抢到了会发邮件通知你）
+本脚本采用邮箱推送（说人话就是抢到了会发邮件通知你）<br/>
 由于作者编程水平有限，请填写好config.yml中的每一项内容，不然就会出奇奇怪怪的报错
 smtp密码的获取请参考下文
 ```
@@ -34,7 +34,7 @@ https://boke112.com/post/3253.html
 ```
 
 ### 关于腾讯云函数
-请在腾讯云函数上直接上传本压缩包文件
+请在腾讯云函数上直接上传本压缩包文件<br/>
 获取SecretId 和 SecretKey 并填写至config文件中
 ```
 请在 https://console.cloud.tencent.com/cam/capi 
