@@ -33,5 +33,12 @@ pip3 install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 ```
 https://console.cloud.tencent.com/api/explorer?Product=scf&Version=2018-04-16&Action=Invoke&SignVersion=
 ```
+
+### 使用说明
+作者推荐使用一台云服务器（Linux）+ 腾讯云函数搭配使用 防止IP被ban导致漏抢俱乐部
+
+也可只在服务器上部署，只需执行对indexSCF文件进行少量的修改便可直接使用。
+
 # 禁止售卖脚本赚钱，脚本仅供学习使用，所带来的的责任与本人无关！
 # 本脚本兼容多用户，建议使用多用户模式
+# 本脚本采用MIT
