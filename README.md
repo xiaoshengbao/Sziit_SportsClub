@@ -6,7 +6,7 @@
 
 请先确保您有python3.6及以上环境<br/>
 ```
-yum install python
+yum install python3
 ```
 
 在云服务器上安装依赖 
