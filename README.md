@@ -19,5 +19,19 @@ pip install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 ```
 pip3 install -r requirements.txt -t ./ -i https://mirrors.aliyun.com/pypi/simple
 ```
+
+### 关于腾讯云函数
+请在腾讯云函数上直接上传本压缩包文件
+获取SecretId 和 SecretKey 并填写至config文件中
+```
+请在 https://console.cloud.tencent.com/cam/capi 
+```
+
+请将腾讯云函数名填写至index.py文件167行"FunctionName"：后
+
+详情请参考腾讯云函数调用API
+```
+https://console.cloud.tencent.com/api/explorer?Product=scf&Version=2018-04-16&Action=Invoke&SignVersion=
+```
 # 禁止售卖脚本赚钱，脚本仅供学习使用，责任与本人无关！
 # 本脚本兼容多用户，建议使用多用户模式
