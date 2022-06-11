@@ -41,4 +41,3 @@ https://console.cloud.tencent.com/api/explorer?Product=scf&Version=2018-04-16&Ac
 
 # 禁止售卖脚本赚钱，脚本仅供学习使用，所带来的的责任与本人无关！
 # 本脚本兼容多用户，建议使用多用户模式
-# 本脚本采用MIT
