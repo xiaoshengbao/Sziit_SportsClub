@@ -58,6 +58,13 @@ https://console.cloud.tencent.com/api/explorer?Product=scf&Version=2018-04-16&Ac
 python3 indexone.py
 ```
 
+#### 关于config中的jlb_url 需要手动获取。
+1. 请先打开 https://ehall.sziit.edu.cn/new/index.html 进行登录
+2. 登录后请点击 体育俱乐部 
+3. ![1655012815283](https://user-images.githubusercontent.com/73678111/173217554-83227ea0-cb93-4977-bf3b-5bd537901657.png)
+4. 请复制上图中的URL填写至config文件中
+
+
 
 # 禁止售卖脚本赚钱，脚本仅供学习使用，所带来的的责任与本人无关！
 # 本脚本兼容多用户，建议使用多用户模式
