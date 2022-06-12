@@ -36,6 +36,11 @@ https://boke112.com/post/3253.html
 ### 关于腾讯云函数
 请在腾讯云函数上直接上传本压缩包文件<br/>
 [https://cloud.tencent.com/product/scf](https://console.cloud.tencent.com/scf/list?rid=1&ns=default)
+#### 创建函数：
+![1655013112094](https://user-images.githubusercontent.com/73678111/173217688-79848fb6-510a-4483-95bf-9203a4efa9bf.png)
+![1655013199450](https://user-images.githubusercontent.com/73678111/173217728-a6c22963-6101-416a-b187-1311708fd684.png)
+请参照上图上传本项目压缩包文件
+#### 请注意复制此处的函数名称填写至config文件中
 
 请在
 ```
