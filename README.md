@@ -39,16 +39,14 @@ https://boke112.com/post/3253.html
 #### 创建函数：
 ![1655013112094](https://user-images.githubusercontent.com/73678111/173217688-79848fb6-510a-4483-95bf-9203a4efa9bf.png)
 ![1655013199450](https://user-images.githubusercontent.com/73678111/173217728-a6c22963-6101-416a-b187-1311708fd684.png)
-请参照上图上传本项目压缩包文件
-#### 请注意复制此处的函数名称填写至config文件中
+#### 请参照上图上传本项目压缩包文件
+#### 请注意复制此处的函数名称填写至config文件中的FunctionName
 
-请在
+
+#### 请在此处获取SecretId 和 SecretKey 并填写至config文件中
 ```
  https://console.cloud.tencent.com/cam/capi 
 ```
-获取SecretId 和 SecretKey 并填写至config文件中
-
-请将腾讯云函数名填写至index.py文件167行"FunctionName"：后
 
 详情请参考腾讯云函数调用API
 ```
@@ -58,12 +56,13 @@ https://console.cloud.tencent.com/api/explorer?Product=scf&Version=2018-04-16&Ac
 ### 使用说明
 作者推荐使用一台云服务器（Linux）+ 腾讯云函数搭配使用 防止IP被ban导致漏抢俱乐部
 
-也可只在服务器上部署，只需执行对indexSCF文件进行少量的修改便可直接使用。
+也可只在服务器上部署，只需执行indexone.py文件便可直接使用。
 #### 单服务器部署 
 请先参考关于依赖的服务器部署
 ```
 python3 indexone.py
 ```
+#### 为防止封号，建议运行间隔不小于20分钟。推荐9人使用，每半小时运行一次。（雷作者已经踩过了呜呜呜）
 
 #### 关于config中的jlb_url 需要手动获取。
 1. 请先打开 https://ehall.sziit.edu.cn/new/index.html 进行登录
