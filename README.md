@@ -35,6 +35,8 @@ https://boke112.com/post/3253.html
 
 ### 关于腾讯云函数
 请在腾讯云函数上直接上传本压缩包文件<br/>
+[https://cloud.tencent.com/product/scf](https://console.cloud.tencent.com/scf/list?rid=1&ns=default)
+
 请在
 ```
  https://console.cloud.tencent.com/cam/capi 
